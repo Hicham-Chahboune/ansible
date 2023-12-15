@@ -5,7 +5,7 @@
   - name: Install nginx
     apt: 
       name: nginx
-      state: 1.4.7
+      state: latest
   - name: start nginx server
     service:
       name: nginx
