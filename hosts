@@ -1,0 +1,7 @@
+[REC]
+"{{ lookup('env','rec_ip') }}"
+
+[REC:vars]
+ansible_connection=ssh
+ansible_ssh_user="{{ lookup('env','rec_user') }}"
+ansible_ssh_pass="{{ lookup('env','rec_pass') }}"
