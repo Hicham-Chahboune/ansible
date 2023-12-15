@@ -1,7 +1,0 @@
-[REC]
-172.18.62.164
-
-[REC:vars]
-ansible_connection=ssh
-ansible_ssh_user="{{ lookup('env','rec_user') }}"
-ansible_ssh_pass="{{ lookup('env','rec_pass') }}"
