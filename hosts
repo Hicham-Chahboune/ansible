@@ -1,5 +1,5 @@
 [REC]
-"{{ lookup('env','rec_ip') }}"
+172.18.62.164
 
 [REC:vars]
 ansible_connection=ssh
