@@ -1,0 +1,13 @@
+---
+- name: Configure nginx in REC env 
+  hosts: REC
+  tasks:
+  - name: Install nginx
+    apt: 
+      name: nginx
+      state: 1.4.7
+  - name: start nginx server
+    service:
+      name: nginx
+      state: started
+
